@@ -1,0 +1,52 @@
+
+.card {
+  box-shadow:  8px 8px 10px 1px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+
+
+p{
+  font-family: helvetica;
+}
+
+body {
+  background: #EFF5F9;  padding: 2px 8px;
+}
+
+h1 
+{  font-family: helvetica;
+   
+}
+
+h3{
+   font-family: helvetica;  color: #0380C6; font-size:20px;
+}
+
+.buttons {
+  border-radius: 8px;
+  background-color: #0493E3;
+ color: white;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 10px 12px;
+  text-align: center;
+    text-decoration: none;
+}
+
+img {
+  display: block;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius:50%;
+   width:65px; height: 65px;
+  
+}
+
