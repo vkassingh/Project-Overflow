@@ -26,6 +26,7 @@ var jobpro=['Shortest Path Finder( to use in google maps)',
 function jobproject(){
 var randomnumber= Math.floor(Math.random()*(jobpro.length));
 document.getElementById('job_display').innerHTML= jobpro[randomnumber];
+
 }
 
 
@@ -53,7 +54,7 @@ document.getElementById('project_display').innerHTML= projects[randomnumber];
 
 function Work_From_Home(){
 var randomnumber= Math.floor(Math.random()*(wfh.length));
-document.getElementById('wfh_display').innerHTML= wfh[randomnumber];
+document.getElementById('display').innerHTML= wfh[randomnumber];
 }
 
  var farmp=['Rainfall prediction',
@@ -65,7 +66,7 @@ document.getElementById('wfh_display').innerHTML= wfh[randomnumber];
 
 function farmingpro(){
 var randomnumber= Math.floor(Math.random()*(farmp.length));
-document.getElementById('wfh_display').innerHTML= farmp[randomnumber];
+document.getElementById('display').innerHTML= farmp[randomnumber];
 }
 
  
@@ -77,7 +78,7 @@ document.getElementById('wfh_display').innerHTML= farmp[randomnumber];
 
 function fitpro(){
 var randomnumber= Math.floor(Math.random()*(fitp.length));
-document.getElementById('fit_display').innerHTML= fitp[randomnumber];
+document.getElementById('display').innerHTML= fitp[randomnumber];
 }
 
    var pollp=['Air Quality app',
@@ -88,7 +89,7 @@ document.getElementById('fit_display').innerHTML= fitp[randomnumber];
 
 function pollpro(){
 var randomnumber= Math.floor(Math.random()*(pollp.length));
-document.getElementById('poll_display').innerHTML= pollp[randomnumber];
+document.getElementById('display').innerHTML= pollp[randomnumber];
 }
 
 var edu=['Auto Grammar checker',
@@ -99,5 +100,5 @@ var edu=['Auto Grammar checker',
 
 function edupro(){
 var randomnumber= Math.floor(Math.random()*(edu.length));
-document.getElementById('edu_display').innerHTML= edu[randomnumber];
+document.getElementById('display').innerHTML= edu[randomnumber];
 }
